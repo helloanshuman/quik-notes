@@ -11,6 +11,8 @@ This repo is to be used to save my quick notes
 		let bResponse$ = of(null);
 
 		bResponse$ = service.methodB(); // returning Observable<bResponse>
+		
+		return bResponse$;
 
 	  }
 	));
